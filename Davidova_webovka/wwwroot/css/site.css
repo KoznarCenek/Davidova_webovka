@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+  background-color:rgb(226,234,236)
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color:rgb(226, 234, 236)
+}
+footer {
+    background-color:rgb(188, 188, 196)
+}
+header{
+    background-color:rgb(226, 234, 236)
+}
+.karty{
+    background-color:rgb(118, 148, 171)
+}
+.vpravo{
+    
+}

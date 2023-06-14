@@ -22,6 +22,14 @@ namespace Davidova_webovka.Controllers
         {
             return View();
         }
+        public IActionResult Kontakt()
+        {
+            return View();
+        }
+        public IActionResult Poptavka()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

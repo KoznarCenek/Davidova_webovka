@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Poptavka";
+}
+<div class="text-center">
+    <h1>Nezávazná poptávka služeb</h1>
+    <div class="card bg-primary text-white mt-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="card-title text-center">Kontaktní údaje</h4>
+                    <p class="card-text text-center">Na základě vyplněných údajů Vás budu kontaktovat a domluvíme se na dalším postupu vedoucím k získání cenové nabídky na poptávané práce</p>
+                </div>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                        <label for="inputName" class="text-center"></label>
+                        <input type="text" class="form-control text-center" id="inputName" placeholder="Jméno a příjmení">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                        <label for="inputEmail" class="text-center"></label>
+                        <input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail">
+                    </div>
+                    <div class="form-group col-md-6 offset-md-3">
+                        <label for="inputPhone" class="text-center"></label>
+                        <input type="text" class="form-control text-center" id="inputPhone" placeholder="Telefonní číslo">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                        <label class="text-center">Poptávané služby:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service1">
+                            <label class="form-check-label" for="service1">Zpracování projektové dokumentace staveb</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service2">
+                            <label class="form-check-label" for="service2">Technický dozor investora</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service3">
+                            <label class="form-check-label" for="service3">Stavba na klíč</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service4">
+                            <label class="form-check-label" for="service4">Inspekce nemovitostí</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service5">
+                            <label class="form-check-label" for="service5">Konzultace</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="service6">
+                            <label class="form-check-label" for="service6">Softwarové řešení</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                        <label for="inputNotes" class="text-center"></label>
+                        <textarea class="form-control text-center" id="inputNotes" rows="3" placeholder="Vaše poznámky"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="agreeCheck">
+                            <label class="form-check-label" for="agreeCheck">Souhlasím se zpracováním osobních údajů</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-secondary">Odeslat</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+

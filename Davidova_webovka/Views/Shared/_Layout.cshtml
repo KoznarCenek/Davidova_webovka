@@ -10,21 +10,22 @@
 </head>
 <body>
     <header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MOARCH BIM . CAD . PROJEKCE . ARCHITEKTURA</a>
-      </div>
-      <div class="col-md-6 text-md-right">
-        <div class="btn-group" role="group" aria-label="Výběr kandidáta">
-          <button type="button" class="btn btn-secondary">SLUŽBY</button>
-          <button type="button" class="btn btn-primary">KONTAKT</button>
-          <button type="button" class="btn btn-secondary">NEZÁVAZNÁ POPTÁVKA</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MOARCH BIM . CAD . PROJEKCE . ARCHITEKTURA</a>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-md-right">
+                    <div class="btn-group" role="group" aria-label="Výběr kandidáta">
+                        <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">SLUŽBY</a>
+                        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Kontakt">KONTAKT</a>
+                        <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Poptavka">NEZÁVAZNÁ POPTÁVKA</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</header>
+    </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -33,7 +34,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            David šmíd IČ: 
+            David šmíd Pobřežní 161 357 03 Svatava IČ: 03526551 Podnikatel je zapsán v živnostenském rejstříku. 
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

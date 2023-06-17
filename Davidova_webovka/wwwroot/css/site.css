@@ -19,14 +19,52 @@ body {
     background-color:rgb(226, 234, 236)
 }
 footer {
-    background-color:rgb(188, 188, 196)
+    background-color: rgb(188, 188, 196)
 }
-header{
-    background-color:rgb(226, 234, 236)
+header {
+    background-color: rgb(226, 234, 236)
 }
-.karty{
-    background-color:rgb(118, 148, 171)
+.bg-custom {
+    background-color: rgb(170, 192, 203);
 }
-.vpravo{
-    
+.bg-custom2 {
+    background-color: rgb(118, 148, 171);
+}
+.modrytext {
+    color: rgb(140, 180, 200);
+    margin: 15px;
+}
+.rgb1{
+    background-color: rgb(118,148,171)
+}
+.rgb2{
+    background-color: rgb(226,234,236)
+}
+.rgb3{
+    background-color: rgb(170,192,203)
+}
+.rgb4{
+    background-color: rgb(148,148,152)
+}
+.rgb5{
+    background-color: rgb(149,156,156)
+}
+.rgb6{
+    background-color: rgb(189,196, 196)
+}
+.rgb7{
+    background-color: rgb(188,188,196)
+}
+.rgb8{
+    background-color: rgb(140,180,200)
+}
+.rgb9{
+    background-color: rgb(81,120,150)
+}
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

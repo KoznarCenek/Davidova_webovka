@@ -30,6 +30,14 @@ namespace Davidova_webovka.Controllers
         {
             return View();
         }
+        public IActionResult Dozory()
+        {
+            return View();
+        }
+        public IActionResult Projekce()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

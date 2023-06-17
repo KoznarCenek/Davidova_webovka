@@ -18,9 +18,9 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4 text-md-right">
                     <div class="btn-group" role="group" aria-label="Výběr kandidáta">
-                        <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">SLUŽBY</a>
-                        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Kontakt">KONTAKT</a>
-                        <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Poptavka">NEZÁVAZNÁ POPTÁVKA</a>
+                        <a class="btn bg-custom2 text-white" asp-area="" asp-controller="Home" asp-action="Index">SLUŽBY</a>
+                        <a class="btn bg-custom2 text-white" asp-area="" asp-controller="Home" asp-action="Kontakt">KONTAKT</a>
+                        <a class="btn bg-custom2 text-white" asp-area="" asp-controller="Home" asp-action="Poptavka">NEZÁVAZNÁ POPTÁVKA</a>
                     </div>
                 </div>
             </div>
@@ -31,10 +31,20 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
-            David šmíd Pobřežní 161 357 03 Svatava IČ: 03526551 Podnikatel je zapsán v živnostenském rejstříku. 
+            <div class="row">
+                <div class="col-md-4">
+                    David Šmíd
+                    Pobřežní 161
+                    357 03 Svatava
+                </div>
+                <div class="col-md-4">
+                    IČ: 03526551
+                    Podnikatel je zapsán v živnostenském rejstříku.
+                </div>
+                <div class="col-md-4"></div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

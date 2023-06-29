@@ -68,3 +68,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+.img-resized {
+    max-width: 300px; /* Maximální šíøka obrázku */
+    height: auto; /* Automaticky upravuje výšku na zachování pùvodních proporcí */
+}

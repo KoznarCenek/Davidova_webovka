@@ -69,6 +69,36 @@ header {
     justify-content: center;
 }
 .img-resized {
-    max-width: 300px; /* Maximální šíøka obrázku */
+    max-width: 200px; /* Maximální šíøka obrázku */
     height: auto; /* Automaticky upravuje výšku na zachování pùvodních proporcí */
 }
+.btn-margin {
+    margin: 20px;
+}
+.btn-margin1{
+    margin-top:20px;
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-right:5px;
+}
+.btn-margin2{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.btn-margin3{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.panel-margin{
+    margin-bottom:20px;
+}
+.line1, .line2 {
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+
